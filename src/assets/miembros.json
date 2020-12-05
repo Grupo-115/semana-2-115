@@ -1,0 +1,32 @@
+{ "team" : [
+    {
+    "codigo": 1,
+    "nombre": "Cristian Ramirez",
+    "descripcion": "Estudiante de ingenieria de sistemas en la Universidad Cooperativa de Colombia, vivo en villavicencio y tambien me gusta el diseño, las series, peliculas y los videojuegos",
+    "rol": "Desarrollador backend",
+    "image": "./imagenes/CristianRamirez.jfif"
+    },
+    {
+    "codigo": 1,
+    "nombre": "Wilder Guerrero",
+    "descripcion": "Wilder Guerrero Bejarano Ing Electricista Universidad del Valle Me encanta nadar",
+    "rol": "Desarrollador backend",
+    "image": "./imagenes/WilderGuerrero.png"
+    },
+    {
+    "codigo": 1,
+    "nombre": "Samy Santana",
+    "descripcion": "Ingeniera Electrónica, vivo en Medellín con mi esposo e hijo, actualmente me desempeño como docente, en mi tiempo libre hago ejercicio y comparto con mi familia.",
+    "rol": "Desarrollador backend",
+    "image": "./imagenes/SamySantana.jfif"
+    },
+    {
+    "codigo": 1,
+    "nombre": "Juan Carlos Gomez",
+    "descripcion": "Contador publico, vivo en Sabaneta Antioquia, actualmente trabajo con empresa multinacional italiana, me gusta la lectura y aprender de todo, casado y con un hijo.  Muy motivado para llevar adelante este programa que estoy realizando con el MinTic.",
+    "rol": "Desarrollador backend",
+    "image": "./imagenes/JuanCarlos.png"
+    }
+ 
+]}
+    
