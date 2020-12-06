@@ -17,6 +17,7 @@
 import miembrosData from "../assets/miembros.json"
 export default {
 name: "TeamCard",
+props: ['member'],
 data(){
     return{
         miembros: miembrosData.team
