@@ -3,7 +3,6 @@
     
     <ApiNoticias id="noticias"></ApiNoticias>
     <TeamCard id="team"></TeamCard>
-    
 
   </div>
 </template>
