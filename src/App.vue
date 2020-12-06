@@ -1,7 +1,7 @@
 <template>
   <div id="app">
 
-    <TeamCard></TeamCard>
+    <TeamCard id="team"></TeamCard>
 
   </div>
 </template>

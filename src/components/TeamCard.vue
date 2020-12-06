@@ -1,7 +1,7 @@
 <template>
     <div>
-        <div class="container">
-            <div class=" card-deck mt-5 p-2">
+        <div class="container ">
+            <div class=" card-deck mt-5 p-2 ">
                 <div class="card text-white bg-dark m-3 text-center " v-for="item in miembros" :key="item.id">
                     <img :src="item.image"  class="card-img-top " alt='imagen de miembros'>
                     <h5 class="card-title m-2">{{item.nombre}}</h5>
