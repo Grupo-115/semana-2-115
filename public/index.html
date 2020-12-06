@@ -13,6 +13,63 @@
     <header id="menu">
 
     <!-- -------ISS1-------- -->
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-info "> 
+        <a class="navbar-brand " href="# "> 
+            <img src="imagenes/bandera.png" width="30 " height="30 " class="d-inline-block align-top " alt=" " loading="lazy "> NOTICIAS DE COLOMBIA </a> 
+            <div class="collapse navbar-collapse justify-content-end " id="navbarNav "> 
+                <ul class="navbar-nav "> 
+                    <li class="nav-item active "> 
+                        <a class="nav-link " href="#">Home <span class="sr-only ">(current)</span></a> 
+                    </li> 
+                    <li class="nav-item "> <a class="nav-link " href="#carousel">Titulares</a>
+                    </li>
+                    <li class="nav-item "> <a class="nav-link " href="#noticias">Noticias</a> 
+                    </li> 
+                    <li class="nav-item "> <a class="nav-link " href="#team ">Equipo</a> 
+                    </li> 
+                    <li class="nav-item "> <a class="nav-link" href="#footer " >Contacto</a> </li> 
+                </ul> 
+            </div> 
+        </nav>
+    <!-- carousel -->
+    <div id="carousel" class="carousel slide bg-ligth" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel" data-slide-to="1"></li>
+          <li data-target="#carousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active text-center">
+            <img src="imagenes/SLIDE1.jpg" class="img-fluid " alt="Responsive image">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class= "bg-light text-dark mt-md-0">CORONAVIRUS</h5>
+              <p class= "bg-light text-dark mt-md-0">Curva del coronavirus en Colombia, hoy 5 de diciembre: ¿cuántos casos y muertes hay?</p>
+            </div>
+          </div>
+          <div class="carousel-item text-center">
+            <img src="imagenes/SLIDE2.jpg" class="img-fluid" alt="Responsive image">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class= "bg-light text-dark mt-md-0">VACUNA CORONAVIRUS</h5>
+              <p class= "bg-light text-dark mt-md-0">Vacuna coronavirus Colombia: ¿Cuándo llegaría y quiénes serían los primeros en recibirla?</p>
+            </div>
+          </div>
+          <div class="carousel-item text-center">
+            <img src="imagenes/SLIDE3.jpg" class="img-fluid" alt="Responsive image">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class= "bg-light text-dark mt-md-0">MEDELLÍN</h5>
+              <p class= "bg-light text-dark mt-md-0">Pico y Placa en Medellín: ¿habrá durante la temporada decembrina?.</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev btn btn-info" href="#carousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next btn btn-info" href="#carousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
 
     </header>
 
@@ -23,11 +80,58 @@
 
     </main>
     
-    <footer class="footer">
+    <footer id="footer" class="page-footer bg-info text-white pt-4 border border-secundary shadow-lg p-3 rounded">
 
     <!-- -------ISS4-------- -->
+    
+        <div class="row">
+            <div class="col-md-6 mt-md-0 mt-3">
+                <h4 class="text-uppercase font-weight-bold">Contacto:</h4>
+              
+                <div class="row"> 
+                    <div class="d-inline p-2 mt-3 ml-3">
+                        <p>Repository</p>
+                        <a class="text-white" href="https://github.com/Grupo-115">Enlace al repositorio</a>
+                    </div>
+                    <div class="d-inline p-2 mt-3 ml-3">
+                        <img src="imagenes/github.png" width="70" height="70" alt="github">
+                    </div>
+                    
+                </div>
+                
+                
+            </div>
+            <hr class="clearfix w-100 d-md-none pb-3">
 
-    </footer>
+            <div class="col-md-6 mb-md-0 mb-2">
+                <h4 class="text-uppercase font-weight-bold">Integrantes:</h4>
+                <p>Cristian David Ramirez Pardo</p>
+                <p>Developer</p>
+                <p>cristian.ramirezp@outlook.com</p>
+                <hr>
+                <p>Juan Carlos Gomez Lopez</p>
+                <p>Developer</p>
+                <p>jcgomez99@gmail.com</p>
+                <hr>
+                <!-- <p>Manuel Alejandro Arias Landázury</p>
+                <p>malariassss@gmail.com</p>
+                <hr> -->
+                <p>Samy Jurley Santana Velásquez</p>
+                <p>Developer</p>
+                <p>samy.santana@outlook.com</p>
+                <!-- <hr>
+                <p>Wilder Guerrero Bejarano</p>
+                <p>Developer</p>
+                <p>wilderg24@hotmail.com</p> -->
+            </div>
+        </div>
+    
+
+   </footer>
+
+<!-- jQuery and JS bundle w/ Popper.js -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 </body>
 
 </html>
